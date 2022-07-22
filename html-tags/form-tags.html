@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tags</title>
+</head>
+<body>
+    <!-- Form methods:
+                get 
+                post
+    -->
+    <form action="" method="">
+
+        
+        <!-- 
+            <input type="text" name="" id="" value="" required disabled placeholder="" minlength="" maxlength="" tabindex="">
+
+            type
+            name
+            id 
+            value
+            required
+            disabled
+            placeholder=""
+            minlength="4"
+            maxlength="10"
+            tabindex="1"
+         -->
+
+
+        <label for="name">Name (Text):</label>
+        <input type="text" id="name" placeholder="Enter your name" tabindex="1">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" required>
+        <br><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" minlength="4" maxlength="10">
+        <br><br>
+
+        <label for="num">Number</label>
+        <input type="number">
+        <br><br>
+
+        <label for="phone">Phone Num:</label>
+        <input type="tel" id="phone" maxlength="10" minlength="10" required>
+        <br><br>
+
+        <label for="dob">DOB</label>
+        <input type="date" id="dob">
+        <br><br>
+
+        <label for="time">Time</label>
+        <input type="time" id="time">
+        <br><br>
+
+        <label for="">Date Time</label>
+        <input type="datetime">
+        <br><br>
+
+        <label for="">Date Time(local)</label>
+        <input type="datetime-local">
+        <br><br>
+
+        <label for="">Radio Button</label>
+        <input type="radio" name="radio" value="one">One 
+        <input type="radio" name="radio" value="two">Two 
+        <input type="radio" name="radio" value="three">Three
+        <br><br>
+
+        <label for="">Check Box</label>
+        <input type="checkbox" >
+        <input type="checkbox" >
+        <input type="checkbox" >
+        <br><br>
+
+        <label for="range">Range</label>
+        <input type="range" id="range">
+        <br><br>
+
+        
+        <label for="">Search</label>
+        <input type="search">
+        <br><br>
+        
+        <label for="">URL</label>
+        <input type="url">
+        <br><br>
+        
+        <label for="">Hidden</label>
+        <input type="hidden">
+        <br><br>
+        
+        <label for="">Image</label>
+        <input type="image">
+        <br><br>
+
+        <label for="">File</label>
+        <input type="file">
+        <br><br>
+
+        <label for="">Color</label>
+        <input type="color">
+        <br><br>
+
+        <label for="">Select Options</label>
+        <select name="" id="">
+            <option value="">--Please Select--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+        </select>
+        <br><br>
+        <label for="">Textarea</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br><br>
+
+        <input type="submit">
+        <input type="reset">
+        <br><br>
+
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
