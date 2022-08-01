@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.box-1{
+    margin: 30px;
+    padding: 20px;
+
+    width: 250px;
+    height: 150px;
+
+    border-radius: 10px;
+
+    background-color: aqua;
+    /* box-shadow: offset-x offset-y blur-radius spreed-radius color;  */
+    box-shadow: 15px 10px 8px 4px bisque;
+}
