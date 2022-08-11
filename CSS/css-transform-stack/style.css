@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #54BAB9;
+}
+.container{
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.color-1{
+    background-color: #F7ECDE;
+    position: absolute;
+    top: 80px;
+    transform: rotatex(45deg) rotateZ(45deg);
+    z-index: 3;
+}
+.color-2{
+    background-color: #E9DAC1;
+    position: absolute;
+    top: 160px;
+    transform: rotatex(45deg) rotateZ(45deg);
+    z-index: 2;
+}
+.color-3{
+    background-color: #9ED2C6;
+    position: absolute;
+    top: 240px;
+    transform: rotatex(45deg) rotateZ(45deg);
+    z-index: 1;
+}
