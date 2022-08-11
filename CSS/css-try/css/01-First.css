@@ -1,0 +1,40 @@
+/* external css */
+.c2{
+    color: black;
+    width: 200px;
+}
+
+/* element selector */
+h2{
+    text-align: center;
+    /* declration { proprty : value } */
+}
+
+/* id selector */
+#h3{
+    padding: auto;
+}
+
+/* class selector */
+.c4{
+    background-color: #fff;
+}
+
+/* group selector */
+h1 , h2 , h3 , div{
+    background-color: aquamarine;
+}
+
+p.red{
+    color: red;
+}
+
+p#blue{
+    color: blue;
+}
+
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}

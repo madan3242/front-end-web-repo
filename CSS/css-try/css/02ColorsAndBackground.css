@@ -1,0 +1,52 @@
+/* 
+    Types of colors css
+        RGB
+        HEX code
+        HSl
+        RGBA
+        HSLA 
+*/
+
+.c1{
+    color: rgb(18, 127, 217);
+}
+
+/* background color property */
+.brown{
+    background-color: brown;
+}
+
+
+.div-1{
+    /* background image property */
+    background-image: url("");
+
+    /* background-repeat property  */
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+
+    /* background-size property  */
+    background-size: cover;
+    background-size: contain;
+    background-size: auto;
+    background-size: 100px;
+    background-size: 100px 200px;
+
+    /* background-position property  */
+    background-position: top ;
+    background-position: top left;
+    background-position: center;
+    background-position: 20% 75%;
+    background-position: bottom 50px right 100px;
+    background-position: right 35% bottom 45%;
+
+    /* background-attachment property  */
+    background-attachment: fixed;
+    background-attachment: scroll;
+    background-attachment: local;
+
+    /* background */
+    background: cornflowerblue url() no-repeat fixed top;
+    /* background: color image repeat attachment position; */
+}
