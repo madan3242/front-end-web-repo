@@ -1,3 +1,77 @@
+.box{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+
+}
+
+.box-1{
+    background-color:  chartreuse;
+
+    /* 
+    display: inline;
+    display: block;
+    display: inline-block; 
+    */
+
+    /* 
+    display: none;
+    visibility: hidden; 
+    */
+}
+.box-2{
+    background-color:  deeppink;
+}
+
+.box-3{
+    background-color:  deepskyblue;
+}
+
+
+.text{
+    /* text-align property  */
+    text-align: center;
+
+    /* text-decoration property  */
+
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    text-decoration: none;
+
+    /* text-transform property  */
+
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    text-transform: uppercase;
+
+    /* line-height  */
+    line-height: 1.7;
+
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    font-size: 1.5em;
+}
+
+span{
+    font-style: normal;
+    font-style: italic;
+    font-style: oblique;
+    font-style: oblique 45deg;
+
+    font-weight: 700;
+}
+
+
+.google-font{
+    font-family: 'Rubik Dirt', cursive;
+}
 .container-1{
     width: 400px;
     height: 350px;
