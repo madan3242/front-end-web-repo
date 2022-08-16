@@ -1,0 +1,23 @@
+body{
+    background-color: #66ff99;
+
+}
+section{
+    background-color: #66ff99;
+}
+.container{
+    margin: 8% 15%;
+    background-color: #1CAC78;
+}
+.left{
+    padding: 12% 2%;
+    
+}
+.right{
+    
+    padding: 12% 2%;
+    background-color: #fff;
+}
+.btn{
+    background-color: #1CAC78;
+}
